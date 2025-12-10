@@ -15,7 +15,6 @@ DEVICE_CONN_NAC = os.getenv("DEVICE_CONN_NAC")
 LOCATIONS = ["Dow's Lake", "Fifth Avenue", "NAC"]
 CONNECTION_STRINGS = [DEVICE_CONN_DOWS, DEVICE_CONN_FIFTH, DEVICE_CONN_NAC]
 
-# Validate .env configuration
 for i, conn in enumerate(CONNECTION_STRINGS):
     if not conn:
         raise Exception(
