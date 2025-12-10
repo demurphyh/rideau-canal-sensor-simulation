@@ -58,6 +58,6 @@ try:
         time.sleep(10)
 
 except KeyboardInterrupt:
-    print("\n🛑 Sensor simulation stopped.")
+    print("\n Sensor simulation stopped.")
 except Exception as e:
-    print(f"❌ ERROR: {e}")
+    print(f"ERROR: {e}")
